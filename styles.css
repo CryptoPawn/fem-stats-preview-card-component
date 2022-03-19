@@ -101,7 +101,6 @@ main {
     opacity: 50%;
 }
 .header-image {
-    position: relative;
     height: 100%;
     right: 0;
 }
@@ -109,7 +108,6 @@ main {
 
 
 .text-section {
-    position: relative;
     display: flex;
     flex-direction: column;
     padding: 75px 120px 75px 70px;
@@ -119,13 +117,9 @@ h1 { margin-bottom: 30px; }
 h2 { margin-bottom: 5px; }
 
 .position-helper {
-    position: relative;
+    display: flex;
+    align-items: flex-end;
     height: 100%;
-}
-.position-to-bottom {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 .stats-container {
     width: 100%;
